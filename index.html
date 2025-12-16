@@ -80,21 +80,21 @@
         // ==========================================
         // 1. Vandiep
         // ==========================================
-        const MUSIC_URL = "./audio.mp3";
+        const MUSIC_URL = "./res/audio.mp3";
         let bgMusic = new Audio(MUSIC_URL);
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['./img (1).jpg',
-                            './img (2).jpg',
-                            './img (3).jpg',
-                            './img (4).jpg',
-                            './img (5).jpg',
-                            './img (6).jpg',
-                            './img (7).jpg',
-                            './img (8).jpg',
-                            './img (9).jpg',
-                            './img (10).jpg',
+        const photoFiles = ['./res/img (1).jpg',
+                            './res/img (2).jpg',
+                            './res/img (3).jpg',
+                            './res/img (4).jpg',
+                            './res/img (5).jpg',
+                            './res/img (6).jpg',
+                            './res/img (7).jpg',
+                            './res/img (8).jpg',
+                            './res/img (9).jpg',
+                            './res/img (10).jpg',
         ];
         shuffleArray(photoFiles); 
         const photoTextures = [];
